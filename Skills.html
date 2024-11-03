@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {box-sizing: border-box;}
+            .container {
+                width: 100%;
+                background-color: #ddd;
+            }
+
+            .skills {
+                text-align: right;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: white;
+            }
+            h1{
+                font-size: 300%;
+            }
+
+            .html {width: 90%; background-color: #04aa0c;}
+            .css {width: 80%; background-color: #2195f3bb;}
+            .js {width: 65%; background-color: #36f4e1;}
+            .c {width: 60%; background-color: #ec2e2eea;}
+            @media screen and (max-width: 600px) {
+                .column, input[type=submit] {
+                    width: 100%;
+                    margin-top: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1><strong><centre>My Skills</centre></strong></h1>
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skill css">80%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">65%</div>
+        </div>
+
+        <p>C</p>
+        <div class="container">
+            <div class="skills c">60%</div>
+        </div>
+    </body>
+</html>
